@@ -1,0 +1,15 @@
+{
+  "name": "leo-investing-web",
+  "version": "1.0.0",
+  "private": true,
+  "source": "web/index.html",
+  "scripts": {
+    "start": "concurrently -k -n quotes,parcel -c green,blue \"python web_server.py\" \"parcel web/index.html --port 1234 --open\"",
+    "build": "parcel build web/index.html --dist-dir dist"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "node-gyp-build-optional-packages": "^5.2.2",
+    "parcel": "^2.15.0"
+  }
+}

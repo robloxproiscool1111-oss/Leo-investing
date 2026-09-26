@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+data/accounts.sqlite3
+node_modules/
+.parcel-cache/
+dist/

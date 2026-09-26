@@ -1,0 +1,4 @@
+customtkinter
+yfinance
+matplotlib
+pillow
